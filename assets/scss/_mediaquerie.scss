@@ -1,0 +1,75 @@
+
+@import 'padrao';
+
+
+
+
+@media screen and (min-width: 420px){
+    body .container {
+        height: $heigth-medias;
+        margin: $margin-medias;
+        border-radius: $radius-medias;
+
+       .pokemons{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 680px) and (max-width:849px){
+    body .container {
+        height: $heigth-medias;
+        margin: $margin-medias;
+        border-radius: $radius-medias;
+
+       .pokemons{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+
+    body .container{
+        max-width: 870px;
+        height: $heigth-medias;
+        margin: $margin-medias;
+        border-radius: $radius-medias;
+
+        .pokemons{
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body .container {
+        max-width: 1200px;
+        height: $heigth-medias;
+        margin: $margin-medias;
+        border-radius: $radius-medias;
+
+       .pokemons{
+            grid-template-columns: repeat(5, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 1400px){
+
+    body .container {
+        max-width: 1400px;
+        height: $heigth-medias;
+        margin: $margin-medias;
+        border-radius: $radius-medias;
+
+       .pokemons{
+            grid-template-columns: repeat(6, 1fr);
+        }
+    }
+}
+
+
